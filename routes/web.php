@@ -20,4 +20,4 @@ Route::get('/', function () {
 });
 Route::get('start', function () {
     return view('start');
-};
+});
