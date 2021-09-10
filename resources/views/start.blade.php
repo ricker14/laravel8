@@ -3,11 +3,14 @@
 @section('content')
     <div class="ui segment">
         <h3 class="ui header">First Page</h3>
-        <div class="ui grid">
-            <div class="four wide column">One</div>
-            <div class="four wide column">Two</div>
-            <div class="four wide column">Three</div>
-            <div class="four wide column">Four</div>
+        <div class="ui four column grid">
+            <div class="row">
+                <div class="column">One</div>
+                <div class="column">Two</div>
+                <div class="column">Three</div>
+                <div class="column">Four</div>
+            </div>
         </div>
     </div>
+
 @endsection
