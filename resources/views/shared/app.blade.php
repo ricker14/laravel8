@@ -9,7 +9,7 @@
     <title>Cash Express Audit Portal - @yield('title')</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="../public/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../public/semantic/semantic.css">
 
     <!-- Scripts -->
     <script
@@ -17,7 +17,7 @@
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous">
     </script>
-    <script src="../public/semantic.js"></script>
+    <script src="../public/semantic/semantic.js"></script>
 
 </head>
 
