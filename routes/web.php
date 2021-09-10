@@ -19,5 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('start', function () {
-    return view('start');
+    return view('start', [
+        'resource_path' => resource_path()
+    ]);
 });
