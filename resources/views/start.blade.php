@@ -1,4 +1,4 @@
-@extends('shared.layouts.app')
+@extends('shared.app')
 
 @section('content')
     <div class="ui segment">
