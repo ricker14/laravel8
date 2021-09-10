@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\StartController;
 
+use App\Http\Controllers\Controller;
+
 class StartController extends Controller
 {
     public function generate(Request $request)

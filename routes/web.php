@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\Controller;
+use App\Http\Controllers\StartController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get('start', function () {
-//     return view('start');
-// });
-Route::get('start', [StartController::class, 'generate'])->name('start');
+Route::get('start', function () {
+    return view('start');
+};
