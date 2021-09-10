@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get('start', function () {
-//     return view('start');
-// });
-Route::match(['get', 'post'], 'start', 'StartController@generate')->name('start');
+Route::get('start', function () {
+    return view('start');
+});
+// Route::match(['get', 'post'], 'start', 'StartController@generate')->name('start');

@@ -1,3 +1,5 @@
+<?php
+
 namespace App\Http\Controllers\StartController;
 
 class StartController extends Controller
