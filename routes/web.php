@@ -19,4 +19,4 @@ Route::get('/', function () {
 // Route::get('start', function () {
 //     return view('start');
 // });
-Route::match(['get', 'post'], 'start', 'StartController@generate')->name('start');
+Route::get('start', [StartController::class, 'generate'])->name('start');
