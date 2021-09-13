@@ -1,6 +1,4 @@
-@extends('shared.app')
-
-@section('content')
+<x-layout.body>
     <h3 class="ui header">First Page</h3>
     <div class="ui four column grid">
         <div class="row">
@@ -10,4 +8,4 @@
             <div class="column">Four</div>
         </div>
     </div>
-@endsection
+</x-layout.body>
