@@ -9,7 +9,7 @@
     <title>Laravel 8 Playground</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/semantic.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
     <!-- Scripts -->
     <script
@@ -17,7 +17,7 @@
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous">
     </script>
-    <script src="/js/semantic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
 </head>
 
