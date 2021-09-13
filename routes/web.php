@@ -19,8 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('start', function () {
-    $resource_path = resource_path();
     return view('start', [
-        'resource_path' => $resource_path()
     ]);
 });

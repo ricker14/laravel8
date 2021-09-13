@@ -9,7 +9,7 @@
     <title>Cash Express Audit Portal - @yield('title')</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="{{ $resource_path }}/css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="/var/www/laravel8/resources/css/semantic.css">
 
     <!-- Scripts -->
     <script
@@ -17,7 +17,7 @@
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous">
     </script>
-    <script src="{{ $resource_path }}/js/semantic.js"></script>
+    <script src="/var/www/laravel8/resources/js/semantic.js"></script>
 
 </head>
 
