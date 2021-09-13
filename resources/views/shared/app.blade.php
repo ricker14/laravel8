@@ -6,7 +6,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no" />
 
-    <title>Cash Express Audit Portal - @yield('title')</title>
+    <title>Laravel 8 Playground</title>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/css/semantic.css">
