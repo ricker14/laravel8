@@ -1,7 +1,5 @@
 <x-layout>
-    <div class="ui segment">
-        <div class="ui header">
-            <a href="start">Start</a>
-        </div>
-     </div>
+    <div class="ui container center aligned">
+        <a href="start">Start</a>
+    </div>
 </x-layout>
